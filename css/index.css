@@ -1,0 +1,96 @@
+body {
+    padding-left: 30px; /*Adiciona preenchimento ao lado esquerdo da tela */
+}
+
+.tutorial {
+  margin-bottom: 30px; /*tamanho lateral da caixa */
+  padding: 20px; 
+  border-radius: 10px; /*sombra da caixa */
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 5px; 
+  width: 30%; /* Ajustar a largura de cada caixa */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /*cor da sombra da caixa */
+  border: 1px outset #a0a0a0; /*borda da caixa*/
+  transition: transform 0.3s ease; /* Transição suave para transform */
+  margin-bottom: 30px; /* Aumenta o espaçamento inferior entre as seções */
+}
+
+.tutorial h2 {
+  margin-top: 0; /*tamanho da parte de cima da caixa*/
+}
+ 
+.tutorial:hover {
+  background-color: #f0f0f0;
+  border-color: #939393;
+  transform: translateY(-5px); /* Move a caixa 5px para cima */
+  transform: scale(1.05); /* Aumenta o tamanho em 5% */
+
+  }
+  
+.introducao p {
+    text-align: left; /* Alinha o texto à esquerda */
+    line-height: 1.2; /* Mantém o espaçamento entre linhas */
+  } 
+
+main {
+    display: flex; /* Habilitar Flexbox para o container principal */
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    justify-content: space-between; /* Distribuir espaço entre os itens */
+  }
+
+header {
+    
+    color: #aa0000;
+    padding: 20px 0;
+    text-align: justify;
+    font: sans-serif;
+    margin-bottom: 0px;
+}
+
+p
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6c757d;
+    text-align: center;
+    font-weight: normal; /*intensidade da fonte*/
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+
+h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #6c757d;
+    margin-top: auto;
+    font-weight: normal; /* Remove o negrito */
+    margin-right: 20px;
+}
+
+button {
+    background-color: #df0202;
+    border: none; /* Sem borda */
+    color: white;
+    padding: 10px 10px; /* Espaçamento interno */
+    text-align: center;
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 14px;
+    margin: 0px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #570000; 
+  }
