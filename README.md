@@ -1,4 +1,3 @@
-Painel de Ajuda
 Este projeto é um Painel de Ajuda que fornece tutoriais passo a passo para resolver questões comuns relacionadas ao uso dos recursos de uma instituição. 
 O objetivo é ajudar os usuários a navegar pelos procedimentos de forma fácil e eficiente.
 
