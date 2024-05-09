@@ -2,30 +2,42 @@ body {
     padding-left: 30px; /*Adiciona preenchimento ao lado esquerdo da tela */
 }
 
+header { 
+    color: #aa0000;
+    padding: 25px 0;
+    text-align: justify;
+    font: sans-serif;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
 
 .tutorial {
-  margin-bottom: 30px; /*tamanho lateral da caixa */
-  padding: 20px; 
-  border-radius: 10px; /*sombra da caixa */
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 5px; 
-  width: 30%; /* Ajustar a largura de cada caixa */
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /*cor da sombra da caixa */
-  border: 1px outset #a0a0a0; /*borda da caixa*/
-  transition: transform 0.3s ease; /* Transição suave para transform */
-  margin-bottom: 30px; /* Aumenta o espaçamento inferior entre as seções */
+    margin-bottom: 30px; /*tamanho lateral da caixa */
+    padding: 20px; 
+    border-radius: 10px; /*sombra da caixa */
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px; 
+    width: 30%; /* Ajustar a largura de cada caixa */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /*cor da sombra da caixa */
+    border: 1px outset #a0a0a0; /*borda da caixa*/
+    transition: transform 0.3s ease; /* Transição suave para transform */
+    margin-bottom: 30px; /* Aumenta o espaçamento inferior entre as seções */
 }
 
 .tutorial h2 {
-  margin-top: 0; /*tamanho da parte de cima da caixa*/
+    margin-top: 0; /*tamanho da parte de cima da caixa*/
 }
  
 .tutorial:hover {
-  background-color: #f0f0f0;
-  border-color: #939393;
-  transform: translateY(-5px); /* Move a caixa 5px para cima */
-  transform: scale(1.05); /* Aumenta o tamanho em 5% */
-
+    background-color: #f0f0f0;
+    border-color: #939393;
+    transform: translateY(-5px); /* Move a caixa 5px para cima */
+    transform: scale(1.05); /* Aumenta o tamanho em 5% */
   }
 
 .introducao p {
@@ -38,19 +50,6 @@ main {
     flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
     justify-content: space-between; /* Distribuir espaço entre os itens */
   }
-
-header {
-    
-    color: #aa0000;
-    padding: 20px 0;
-    text-align: justify;
-    font: sans-serif;
-    margin-bottom: 0px;
-}
-
-h2 img {
-  margin-right: 15px;
-}
 
 p
 {
@@ -65,12 +64,6 @@ p
     margin-left: 0px;
 }
 
-header h1 {
-    font-family: sans-serif;
-    font-size: 40px;
-    margin: 0px;
-}
-
 h2 {
     font-family: sans-serif;
     font-size: 22px;
@@ -80,6 +73,10 @@ h2 {
     margin-right: 20px;
     display: flex;
     align-items: center;
+}
+
+h2 img {
+  margin-right: 15px;
 }
 
 button {
