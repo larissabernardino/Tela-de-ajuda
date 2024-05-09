@@ -2,6 +2,7 @@ body {
     padding-left: 30px; /*Adiciona preenchimento ao lado esquerdo da tela */
 }
 
+
 .tutorial {
   margin-bottom: 30px; /*tamanho lateral da caixa */
   padding: 20px; 
@@ -47,9 +48,13 @@ header {
     margin-bottom: 0px;
 }
 
+h2 img {
+  margin-right: 15px;
+}
+
 p
 {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color:#6c757d;
     text-align: center;
@@ -66,14 +71,15 @@ header h1 {
     margin: 0px;
 }
 
-
 h2 {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     color: #6c757d;
     margin-top: auto;
     font-weight: normal; /* Remove o negrito */
     margin-right: 20px;
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -89,6 +95,7 @@ button {
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s;
+    float: right;
   }
   
   button:hover {
