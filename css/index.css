@@ -2,6 +2,8 @@ body {
     padding-left: 30px; /*Adiciona preenchimento ao lado esquerdo da tela */
 }
 
+
+
 header { 
     color: #aa0000;
     padding: 25px 0;
@@ -27,6 +29,8 @@ header h1 {
     border: 1px outset #a0a0a0; /*borda da caixa*/
     transition: transform 0.3s ease; /* Transição suave para transform */
     margin-bottom: 30px; /* Aumenta o espaçamento inferior entre as seções */
+    display: flex;
+    
 }
 
 .tutorial h2 {
@@ -94,7 +98,30 @@ button {
     transition: background-color 0.3s;
     float: right;
   }
+
+  
   
   button:hover {
     background-color: #570000; 
-  }
+  } 
+
+button {
+  background-color: #df0202;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+button:hover {
+  background-color: #570000; 
+} 
+
